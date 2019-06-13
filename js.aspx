@@ -1,0 +1,1 @@
+var config = {"apiKey":"AIzaSyBPP0NWi_V9fi4d47jWmL9X0e2zT7K6sIQ","authDomain":"jakubtoman-b3388.firebaseapp.com","databaseURL":"https://jakubtoman-b3388.firebaseio.com","projectId":"jakubtoman-b3388","storageBucket":"jakubtoman-b3388.appspot.com","messagingSenderId":"80582566711"};
