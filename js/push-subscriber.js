@@ -1,5 +1,5 @@
-var mainDomain = 'robotcaptcha2.info';
-var redirectUrl = 'https://blatwalm.com/afu.php?zoneid=2480991';
+var mainDomain = 'wonderdeath.github.io/push-test2/';
+var redirectUrl = 'https://google.com/';
 
 var subDomains = [
 	'a',
