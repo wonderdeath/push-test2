@@ -1,1 +1,1 @@
-var config = {"apiKey":"AIzaSyBPP0NWi_V9fi4d47jWmL9X0e2zT7K6sIQ","authDomain":"jakubtoman-b3388.firebaseapp.com","databaseURL":"https://jakubtoman-b3388.firebaseio.com","projectId":"jakubtoman-b3388","storageBucket":"jakubtoman-b3388.appspot.com","messagingSenderId":"80582566711"};
+var config = {"apiKey":"AIzaSyDMxplwvWjoMk8ZOuoQsaALGz2S2PZZBhY","authDomain":"dev-fiber-91411.firebaseapp.com","databaseURL":"https://dev-fiber-91411.firebaseio.com","projectId":"dev-fiber-91411","storageBucket":"dev-fiber-91411.appspot.com","messagingSenderId":"254384517286"};
