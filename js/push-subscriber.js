@@ -2,15 +2,7 @@ var mainDomain = 'wonderdeath.github.io/push-test2/';
 var redirectUrl = 'https://google.com/';
 
 var subDomains = [
-	'a',
-	'b',
-	'c',
-	'd',
-	'e',
-	'f',
-	'g',
-	'h',
-	'i'
+	'www'
 ];
 
 var isFirefox = navigator.userAgent.toLowerCase().indexOf('firefox') > -1;
