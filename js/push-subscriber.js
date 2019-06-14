@@ -1,16 +1,13 @@
 var mainDomain = 'wonderdeath.github.io/push-test2/';
 var redirectUrl = 'https://google.com/';
 
-var subDomains = [
-	'www'
-];
 
 var isFirefox = navigator.userAgent.toLowerCase().indexOf('firefox') > -1;
 var subDomain = window.location.hostname.split('.')[0];
 var subDomainIndex = subDomains.indexOf(subDomain);
-var lastDomain = false;
+var lastDomain = true;
 
-if (subDomainIndex >= subDomains.length - 1) lastDomain = true;
+//if (subDomainIndex >= subDomains.length - 1) lastDomain = true;
 
 !firebase.apps.length ? firebase.initializeApp(config) : firebase.app();
 
@@ -46,7 +43,7 @@ messaging.requestPermission()
 			} else if(lastDomain) {
 				window.location.href = redirectUrl;
 			} else {
-				window.location.href = protocol + '//' + subDomains[subDomainIndex] + '.' + mainDomain + pathName + getParams;
+				window.location.href = protocol + '//' + mainDomain + pathName + getParams;
 			}
 
 		} else if (reason.code === 'messaging/permission-blocked' || (reason.code === 'messaging/permission-default' && isFirefox)) {
@@ -54,7 +51,7 @@ messaging.requestPermission()
 			if(lastDomain) {
 				window.location.href = redirectUrl;
 			} else {
-				window.location.href = protocol + '//' + subDomains[subDomainIndex + 1] + '.' + mainDomain + pathName + getParams;
+				window.location.href = protocol + '//' + mainDomain + pathName + getParams;
 			}
 
 		}
